@@ -5,8 +5,8 @@
 #include<fstream>
 #include<windows.h>
 #include<stdlib.h>
-#include<process.h>    //exit
-#include<unistd.h>     //sleep
+#include<process.h>    
+#include<unistd.h>     
 #include<string.h>
 #include <ctime>
 using namespace std;
@@ -22,20 +22,25 @@ homepage()
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_RED );
 	int i;
 	cout<<"\n\n\n";
-//	cout<<"\t    ****************************************************************************************\n";
+
 	cout<<"\t   |\t\t                    LOVELY PROFESSIONAL UNIVERSITY                          |\n";
 	cout<<"\t   |\t\t           Department Of Computer Science And Engineering                   |\n";
 	cout<<"\t   |\t\t                                                                            |\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),2 );
 	cout<<"\t   |\t\t                       A MINI PROJECT ON                                    |\n";
 	cout<<"\t   |\t\t                                                                            |\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),1 );
 	cout<<"\t   |\t\t                           PIZZA HUT                                        |\n";
 	cout<<"\t   |\t\t                                                                            |\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),5 );
 	cout<<"\t   |\t\t        BY:                                         GUIDE:                  |\n";
 	cout<<"\t   |\t\t     -------------                                -----------               |\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),6 );
 	cout<<"\t   |\t\t   VIKRANT CHAUDHARY                         Mr. PRAVEEN SEHGAL Sir         |\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),3 );
 	cout<<"\t   |\t\t   Reg No.-> 11703065                                                       |\n";
 	cout<<"\t   |\t\t   Roll NO.->52                                                             |\n";
-    //cout<<"\t    ****************************************************************************************\n\n";
+  
 	
 	//for(int i=17;i<97;i++)
 	
@@ -47,6 +52,7 @@ homepage()
 		gotoxy(100,i+3);
 		cout<<"||";
 	}
+	
 	int k;
 	for(int i=0;i<92;i++)
 	{
@@ -62,19 +68,7 @@ homepage()
 	
 	}
 	getch();
-	cout<<"\n\n";
-	cout<<"           ====================================================================\n";
-	for(i=0;i<3;i++)
-	cout<<"          |                                                                   |\n";
-	cout<<"          |            ~~~~~WELCOME TO Vikrant PIZZA HUT~~~~~                 |\n";
-	for(i=0;i<3;i++)
-	cout<<"          |                                                                   |\n";
-	cout<<"          |===================================================================|\n";
-	cout<<"\n";
 
-	getch();
-	cout<<"         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n";
-	sleep(1);
 }
 
 /////////////////////////////////
